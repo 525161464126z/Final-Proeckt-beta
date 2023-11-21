@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-html,
-body {
-    height: 100%;
-}
 
 a {
     text-decoration: none;
@@ -16,83 +12,3 @@ li {
     list-style: none;
 }
 
-.list1 {
-    display: flex;
-    pdding: 2vw;
-    align-items: center;
-    gap: 4vw;
-    justify-content: space-evenly;
-    margin: 1.5vw;
-    font-size: 1.6vw;
-}
-
-.text-list1 {
-    color: var(--White);
-    background-color: var(--Orange);
-    border-radius: 0.5vw;
-    padding: 1.5vw;
-}
-
-.photo1 {
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    max-width: 100%;
-    height: 28vw;
-}
-
-.text1 {
-    font-size: 4.883vw;
-    font-weight: 700;
-    color: var(--Black);
-    width: 55.5vw;
-    padding: 5vw 0 2vw 5vw;
-}
-
-.text2 {
-    font-size: 1.6vw;
-    font-weight: 500;
-    color: var(--Gray);
-    width: 55.5vw;
-    padding: 1vw 0 0 5vw;
-}
-
-.container1-text {
-    flex: 1;
-    padding: 20px;
-}
-
-.container1 {
-    display: flex;
-    align-items: center;
-}
-
-.list2 {
-    display: grid;
-    font-size: 1.6vw;
-    font-weight: 500;
-}
-
-.list2 {
-    display: flex;
-    list-style: none;
-    font-size: 1.6vw;
-    font-weight: 500;
-    gap: 4vw;
-    padding: 5vw 0 0 5vw;
-    gap: 14vw;
-}
-
-.text3 {
-    color: var(--White);
-    background-color: var(--Orange);
-    border-radius: 0.5vw;
-    padding: 1.5vw;
-}
-
-.text4 {
-    color: var(--Orange);
-    border-radius: 0.5vw;
-    padding: 1.5vw;
-    border: 0.1vw solid var(--Orange);
-}
