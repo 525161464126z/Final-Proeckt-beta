@@ -36,14 +36,15 @@ li {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 1.5vw;
+  margin: 1.5vw;
   font-size: 1.6vw;
 }
 
 .text-list1 {
   color: var(--White);
   background-color: var(--Orange);
-  border-radius: 5px;
+  border-radius: 0.5vw;
+  padding: 1.5vw;
 }
 
 .photo1 {
@@ -84,4 +85,36 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.list2 {
+  display: grid;
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+
+.list2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 1.6vw;
+  font-weight: 500;
+  gap: 4vw;
+  padding: 5vw 0 0 5vw;
+  gap: 14vw;
+}
+
+.text3 {
+  color: var(--White);
+  background-color: var(--Orange);
+  border-radius: 0.5vw;
+  padding: 1.5vw;
+}
+
+.text4 {
+  color: var(--Orange);
+  border-radius: 0.5vw;
+  padding: 1.5vw;
+  border: 0.1vw solid var(--Orange);
 }
