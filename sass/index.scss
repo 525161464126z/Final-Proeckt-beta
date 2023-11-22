@@ -119,7 +119,7 @@ body {
     justify-content: center;
     margin: 5vw 0 0 0;
     justify-items: center;
-    gap: 15vw;
+    gap: 28vw;
 }
 
 .list4-photo1 {
@@ -139,6 +139,14 @@ body {
 }
 
 
+.list5 {
+    padding: 0 4vw 0 4vw;
+    display: flex;
+    gap: 14vw;
+    width: 90vw;
+    justify-content: center;
+    text-align: center;
+}
 
 
 
@@ -151,13 +159,4 @@ body {
 
 .list-footer {
     display: grid;
-}
-
-.list5 {
-    display: flex;
-    gap: 10vw;
-}
-
-.list5-text {
-    justify-content: center;
 }
