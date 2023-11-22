@@ -138,17 +138,34 @@ body {
     top: -5vw;
 }
 
-
 .list5 {
-    padding: 0 4vw 0 4vw;
+    display: flex;
+    gap: 26.5vw;
+    justify-content: center;
+    color: var(--Black);
+    padding: 0 0 1vw 0;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.list6 {
+    padding: 0 4vw 2vw 4vw;
     display: flex;
     gap: 14vw;
     width: 90vw;
     justify-content: center;
     text-align: center;
+    color: var(--Gray);
+    font-size: 1.6vw;
+    font-weight: 400;
 }
 
-
+.photo3 {
+    width: 30vw;
+    border-radius: 3vw;
+    position: relative;
+    left: 5vw;
+}
 
 .footer {
     background-color: #252525;
