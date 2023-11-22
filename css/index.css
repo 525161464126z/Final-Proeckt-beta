@@ -204,11 +204,67 @@ body {
   font-weight: 400;
 }
 
+.list7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .photo3 {
+  display: block;
   width: 30vw;
   border-radius: 3vw;
   position: relative;
-  left: 5vw;
+  left: 6vw;
+  top: 5vw;
+  z-index: 1;
+}
+
+.fon1 {
+  display: block;
+  width: 27vw;
+  position: relative;
+  top: -3vw;
+  right: 30vw;
+  z-index: 0;
+}
+
+.list7-text {
+  position: relative;
+  top: -7vw;
+  right: 15vw;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.list7-text1 {
+  font-size: 1vw;
+  color: var(--Orange);
+  font-weight: 500;
+}
+
+.list7-text2 {
+  font-size: 3vw;
+  font-weight: 700;
+  color: var(--Black);
+}
+
+.list7-text3 {
+  color: var(--Gray);
+  font-size: 1vw;
+  font-weight: 400;
+  padding: 0 0 2vw 0;
+}
+
+.list7-text4 {
+  font-size: 1vw;
+  font-weight: 500;
+  color: var(--White);
+  background-color: var(--Orange);
+  padding: 1vw;
+  width: 4.5vw;
+  border-radius: 0.5vw;
 }
 
 .footer {
