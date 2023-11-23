@@ -352,7 +352,7 @@ body {
 .message {
     border-radius: 0.5vw 0 0 0.5vw;
     padding: 2vw;
-    width: 45vw;
+    width: 55vw;
     outline: none;
     border: none;
 }
@@ -367,7 +367,7 @@ body {
     background-color: var(--Orange);
     border-radius: 0.5vw;
     position: relative;
-    right: 1vw;
+    right: 2vw;
     padding: 2vw;
     color: white;
     width: 16vw;
@@ -375,7 +375,7 @@ body {
     border: none;
 }
 
-@media screen and (max-width: 0px), (min-width: 426px) {
+@media screen and (max-width: 100px), (min-width: 426px) {
     .send {
         width: 8vw;
     }
