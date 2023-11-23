@@ -401,7 +401,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   justify-items: center;
-  padding: 14vw;
+  padding: 10vw;
   background-color: var(--Orange2);
 }
 
@@ -425,9 +425,13 @@ body {
   width: 35vw;
   outline: none;
   border: none;
-  font-size: 16px;
 }
 
+@media screen and (max-width: 100px), (min-width: 426px) {
+  .message {
+    width: 25vw;
+  }
+}
 .send {
   background-color: var(--Orange);
   border-radius: 0.5vw;
@@ -435,12 +439,16 @@ body {
   right: 1vw;
   padding: 2vw;
   color: white;
-  width: 10vw;
+  width: 16vw;
   outline: none;
   border: none;
-  font-size: 16px;
 }
 
+@media screen and (max-width: 0px), (min-width: 426px) {
+  .send {
+    width: 8vw;
+  }
+}
 .list-footer {
   background-color: #252525;
   padding: 10vw;
