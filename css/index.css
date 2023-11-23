@@ -365,6 +365,14 @@ body {
           align-items: center;
 }
 
+.list9-photo1 {
+  width: 2.5vw;
+}
+
+.list9-photo2 {
+  width: 6vw;
+}
+
 .footer {
   background-color: #252525;
   width: 100%;
