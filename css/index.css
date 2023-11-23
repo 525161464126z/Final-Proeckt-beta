@@ -422,14 +422,14 @@ body {
 .message {
   border-radius: 0.5vw 0 0 0.5vw;
   padding: 2vw;
-  width: 35vw;
+  width: 45vw;
   outline: none;
   border: none;
 }
 
 @media screen and (max-width: 100px), (min-width: 426px) {
   .message {
-    width: 45vw;
+    width: 25vw;
   }
 }
 .send {
