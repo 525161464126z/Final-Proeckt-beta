@@ -27,11 +27,18 @@ body {
     font-size: 1.6vw;
 }
 
+.list-button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
 .text-list1 {
     color: var(--White);
     background-color: var(--Orange);
     border-radius: 0.5vw;
     padding: 1.5vw;
+    border: none;
 }
 
 .photo1 {
@@ -88,6 +95,7 @@ body {
     background-color: var(--Orange);
     border-radius: 0.5vw;
     padding: 1.5vw;
+    border: none;
 }
 
 .text4 {
@@ -95,6 +103,7 @@ body {
     border-radius: 0.5vw;
     padding: 1.5vw;
     border: 0.1vw solid var(--Orange);
+    background-color: transparent;
 }
 
 .list3 {
@@ -107,11 +116,13 @@ body {
 .list-text1 {
     color: var(--Orange);
     font-size: 1vw;
+    font-weight: 500;
 }
 
 .list-text2 {
     color: var(--Black);
     font-size: 2vw;
+    font-weight: 700;
 }
 
 .list4 {
@@ -216,21 +227,77 @@ body {
     color: var(--White);
     background-color: var(--Orange);
     padding: 1vw;
-    width: 4.5vw;
+    width: 6.5vw;
     border-radius: 0.5vw;
+    border: none;
 }
 
+.list8 {
+    display: grid;
+    justify-content: center;
+    margin: 5vw 0 0 0;
+    justify-items: center;
+}
 
+.list8-text1 {
+    color: var(--Orange);
+    font-size: 1vw;
+    font-weight: 500;
+}
 
+.list8-text2 {
+    color: var(--Black);
+    font-size: 2vw;
+    font-weight: 700;
+}
 
+.list8-text3 {
+    font-size: 1.6vw;
+    font-weight: 500;
+    color: var(--Gray);
+    width: 55.5vw;
+    padding: 2vw 0 2vw 0;
+    text-align: center;
+}
 
+.list9 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10vw;
 
+}
 
+.list9-photo1 {
+    border-radius: 5vw 1vw 5vw 0;
+    width: 22vw;
+}
 
+.list9-photo2 {
+    border-radius: 5vw 1vw 5vw 0;
+    width: 22vw;
+}
 
+.list9-photo3 {
+    border-radius: 5vw 1vw 5vw 0;
+    width: 22vw;
+}
 
+.list9-photo4 {
+    border-radius: 5vw 1vw 5vw 0;
+    width: 22vw;
+}
 
+.list9-photo5 {
+    border-radius: 5vw 1vw 5vw 0;
+    width: 22vw;
+}
 
+.list9-photo6 {
+    border-radius: 5vw 1vw 5vw 0;
+    width: 22vw;
+}
 
 
 .footer {
