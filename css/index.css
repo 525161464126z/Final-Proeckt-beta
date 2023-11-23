@@ -375,7 +375,7 @@ body {
   width: 6vw;
 }
 
-.list-button {
+.list-button2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -385,7 +385,7 @@ body {
   padding: 0 0 14vw 0;
 }
 
-.list-button1 {
+.list-button3 {
   color: var(--Orange);
   border-radius: 0.5vw;
   padding: 1vw;
@@ -425,6 +425,7 @@ body {
   width: 35vw;
   outline: none;
   border: none;
+  font-size: 16px;
 }
 
 .send {
@@ -437,6 +438,7 @@ body {
   width: 10vw;
   outline: none;
   border: none;
+  font-size: 16px;
 }
 
 .list-footer {
