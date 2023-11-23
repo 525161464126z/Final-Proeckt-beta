@@ -86,6 +86,28 @@ body {
   height: 28vw;
 }
 
+@-webkit-keyframes photo1 {
+  from {
+    margin-top: 0vw;
+  }
+  to {
+    margin-top: -2vw;
+  }
+}
+
+@keyframes photo1 {
+  from {
+    margin-top: 0vw;
+  }
+  to {
+    margin-top: -2vw;
+  }
+}
+.photo1 {
+  -webkit-animation: photo1 1s linear alternate infinite;
+          animation: photo1 1s linear alternate infinite;
+}
+
 .text1 {
   font-size: 4.883vw;
   font-weight: 700;
