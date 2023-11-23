@@ -314,6 +314,7 @@ body {
 .list-button {
     display: flex;
     justify-content: center;
+    padding: 0 0 14vw 0;
 }
 
 .list-button1 {
@@ -325,6 +326,50 @@ body {
     font-weight: 500;
     font-size: 1.6vw;
 }
+
+.list10 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 14vw;
+    background-color: var(--Orange2);
+}
+
+.list10-text1 {
+    color: var(--Orange);
+    font-size: 1vw;
+    font-weight: 500;
+    padding: 0 0 1vw 0;
+}
+
+.list10-text2 {
+    color: var(--Black);
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 0 0 2vw 0;
+}
+
+.message {
+    border-radius: 0.5vw 0 0 0.5vw;
+    padding: 2vw;
+    width: 35vw;
+    outline: none;
+    border: none;
+}
+
+.send {
+    background-color: var(--Orange);
+    border-radius: 0.5vw;
+    position: relative;
+    right: 1vw;
+    padding: 2vw;
+    color: white;
+    width: 10vw;
+    outline: none;
+    border: none;
+}
+
+
 
 .list-footer {
     background-color: #252525;
