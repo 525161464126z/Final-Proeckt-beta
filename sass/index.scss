@@ -53,6 +53,12 @@ body {
     border: none;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
+
+    transition: all 0.5s;
+}
+
+.text-list1:hover {
+    transform: scale(1.1);
 }
 
 .photo1 {
@@ -128,6 +134,11 @@ body {
     border-radius: 0.5vw;
     padding: 1.5vw;
     border: none;
+    transition: all 0.5s;
+}
+
+.text3:hover {
+    transform: scale(1.1);
 }
 
 .text4 {
@@ -136,6 +147,11 @@ body {
     padding: 1.5vw;
     border: 0.1vw solid var(--Orange);
     background-color: transparent;
+    transition: all 0.5s;
+}
+
+.text4:hover {
+    transform: scale(1.1);
 }
 
 .list3 {
@@ -270,6 +286,11 @@ body {
     border-radius: 0.5vw;
     border: none;
     font-family: "Roboto", sans-serif;
+    transition: all 0.5s;
+}
+
+.list7-text4:hover {
+    transform: scale(1.1);
 }
 
 .list8 {
@@ -315,6 +336,11 @@ body {
 .list9-content {
     border: 0.1vw solid var(--Gray2);
     border-radius: 5vw 1vw 1vw 1vw;
+    transition: all 0.5s;
+}
+
+.list9-content:hover {
+    transform: scale(1.1);
 }
 
 .list9-photo {
@@ -350,10 +376,17 @@ body {
 
 .list9-photo1 {
     width: 2.5vw;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.list9-photo1:hover {
+    transform: scale(1.1);
 }
 
 .list9-photo2 {
     width: 6vw;
+    cursor: pointer;
 }
 
 .list-button2 {
@@ -371,6 +404,11 @@ body {
     font-weight: 500;
     font-size: 1.6vw;
     font-family: "Roboto", sans-serif;
+    transition: all 0.5s;
+}
+
+.list-button3:hover {
+    transform: scale(1.1);
 }
 
 .list10 {
@@ -423,6 +461,7 @@ body {
     outline: none;
     border: none;
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 100px), (min-width: 426px) {
@@ -468,4 +507,8 @@ body {
 .footer-photo2 {
     display: block;
     width: 2vw;
+}
+
+button {
+    cursor: pointer;
 }
