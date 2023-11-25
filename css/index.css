@@ -560,6 +560,11 @@ body {
     width: 8vw;
   }
 }
+.send:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .list-footer {
   background-color: #252525;
   padding: 10vw;
