@@ -1,0 +1,506 @@
+html,
+body {
+    height: 100%;
+}
+
+.logo1 {
+    display: block;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 100%;
+    height: 5vw;
+}
+
+.list1 {
+    display: flex;
+    pdding: 2vw;
+    align-items: center;
+    gap: 4vw;
+    justify-content: space-evenly;
+    margin: 1.5vw;
+    font-size: 1.6vw;
+}
+
+.list-button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.list-button-span {
+    color: var(--Orange);
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.text-list1 {
+    color: var(--White);
+    background-color: var(--Orange);
+    border-radius: 0.5vw;
+    padding: 1.5vw;
+    border: none;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+
+    transition: all 0.5s;
+}
+
+.text-list1:hover {
+    transform: scale(1.1);
+}
+
+.photo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 100%;
+    height: 28vw;
+}
+
+@keyframes photo1 {
+    from {
+        margin-top: 0vw;
+    }
+    to {
+        margin-top: -2vw;
+    }
+}
+
+.photo1 {
+    animation: photo1 1s linear alternate infinite;
+}
+
+.text1 {
+    font-size: 4.883vw;
+    font-weight: 700;
+    color: var(--Black);
+    width: 55.5vw;
+    padding: 5vw 0 2vw 5vw;
+    font-family: "Philosopher", sans-serif;
+}
+
+.text2 {
+    font-size: 1.6vw;
+    font-weight: 500;
+    color: var(--Gray);
+    width: 55.5vw;
+    padding: 1vw 0 0 5vw;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.container1-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+.list2 {
+    display: grid;
+    font-size: 1.6vw;
+    font-weight: 500;
+}
+
+.list2 {
+    display: flex;
+    list-style: none;
+    font-size: 1.6vw;
+    font-weight: 500;
+    padding: 5vw 0 0 5vw;
+    gap: 14vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.text3 {
+    color: var(--White);
+    background-color: var(--Orange);
+    border-radius: 0.5vw;
+    padding: 1.5vw;
+    border: none;
+    transition: all 0.5s;
+}
+
+.text3:hover {
+    transform: scale(1.1);
+}
+
+.text4 {
+    color: var(--Orange);
+    border-radius: 0.5vw;
+    padding: 1.5vw;
+    border: 0.1vw solid var(--Orange);
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+.text4:hover {
+    transform: scale(1.1);
+}
+
+.list3 {
+    display: grid;
+    justify-content: center;
+    margin: 5vw 0 0 0;
+    justify-items: center;
+}
+
+.list-text1 {
+    color: var(--Orange);
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.list-text2 {
+    color: var(--Black);
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: "Philosopher", sans-serif;
+}
+
+.list4 {
+    display: flex;
+    justify-content: center;
+    margin: 5vw 0 0 0;
+    justify-items: center;
+    gap: 28vw;
+}
+
+.list4-photo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 100%;
+    height: 7vw;
+}
+
+.list4-photo2 {
+    display: block;
+    height: 3vw;
+    margin-left: 2vw;
+    position: relative;
+    top: -5vw;
+}
+
+.list5 {
+    display: flex;
+    gap: 26.5vw;
+    justify-content: center;
+    color: var(--Black);
+    padding: 0 0 1vw 0;
+    font-size: 1.5vw;
+    font-weight: 700;
+    font-family: "Philosopher", sans-serif;
+}
+
+.list6 {
+    padding: 0 4vw 2vw 4vw;
+    display: flex;
+    gap: 14vw;
+    width: 90vw;
+    justify-content: center;
+    text-align: center;
+    color: var(--Gray);
+    font-size: 1.6vw;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.list7 {
+    display: flex;
+}
+
+.photo3 {
+    display: block;
+    width: 30vw;
+    border-radius: 3vw;
+    position: relative;
+    left: 6vw;
+    top: 5vw;
+    z-index: 1;
+}
+
+.fon1 {
+    display: block;
+    width: 27vw;
+    position: relative;
+    top: -3vw;
+    right: 30vw;
+    z-index: 0;
+}
+
+.list7-text {
+    position: relative;
+    top: -7vw;
+    right: 15vw;
+    display: grid;
+    align-content: center;
+}
+
+.list7-text1 {
+    font-size: 1vw;
+    color: var(--Orange);
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.list7-text2 {
+    font-size: 3vw;
+    font-weight: 700;
+    color: var(--Black);
+    font-family: "Philosopher", sans-serif;
+}
+
+.list7-text3 {
+    color: var(--Gray);
+    font-size: 1vw;
+    font-weight: 400;
+    padding: 0 0 2vw 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.list7-text4 {
+    font-size: 1.6vw;
+    font-weight: 500;
+    color: var(--White);
+    background-color: var(--Orange);
+    padding: 1vw;
+    width: 12.5vw;
+    border-radius: 0.5vw;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.5s;
+}
+
+.list7-text4:hover {
+    transform: scale(1.1);
+}
+
+.list8 {
+    display: grid;
+    justify-content: center;
+    margin: -10vw 0 0 0;
+    justify-items: center;
+}
+
+.list8-text1 {
+    color: var(--Orange);
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.list8-text2 {
+    color: var(--Black);
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: "Philosopher", sans-serif;
+}
+
+.list8-text3 {
+    font-size: 1.6vw;
+    font-weight: 500;
+    color: var(--Gray);
+    width: 55.5vw;
+    padding: 2vw 0 2vw 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.list9 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+    padding: 3vw 10vw 3vw 10vw;
+}
+
+.list9-content {
+    border: 0.1vw solid var(--Gray2);
+    border-radius: 5vw 1vw 1vw 1vw;
+    transition: all 0.5s;
+}
+
+.list9-content:hover {
+    transform: scale(1.1);
+}
+
+.list9-photo {
+    border-radius: 5vw 1vw 5vw 0;
+    width: 22vw;
+}
+
+.list9-text {
+    padding: 0.5vw 1vw;
+}
+
+.list9-text1 {
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding: 0 0 0.5vw 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Philosopher", sans-serif;
+}
+
+.list9-text2 {
+    font-size: 1vw;
+    width: 20vw;
+    padding: 0 0 1vw 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.list9-text3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list9-photo1 {
+    width: 2.5vw;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.list9-photo1:hover {
+    transform: scale(1.1);
+}
+
+.list9-photo2 {
+    width: 6vw;
+    cursor: pointer;
+}
+
+.list-button2 {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 14vw 0;
+}
+
+.list-button3 {
+    color: var(--Orange);
+    border-radius: 0.5vw;
+    padding: 1vw;
+    border: 0.1vw solid var(--Orange);
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1.6vw;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.5s;
+}
+
+.list-button3:hover {
+    transform: scale(1.1);
+}
+
+.list10 {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 10vw;
+    background-color: var(--Orange2);
+}
+
+.list10-text1 {
+    color: var(--Orange);
+    font-size: 1vw;
+    font-weight: 500;
+    padding: 0 0 1vw 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.list10-text2 {
+    color: var(--Black);
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 0 0 2vw 0;
+    font-family: "Philosopher", sans-serif;
+}
+
+.message {
+    border-radius: 0.5vw 0 0 0.5vw;
+    padding: 2vw;
+    width: 55vw;
+    outline: none;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 100px), (min-width: 426px) {
+    .message {
+        width: 25vw;
+    }
+}
+
+.send {
+    background-color: var(--Orange);
+    border-radius: 0.5vw;
+    position: relative;
+    right: 2vw;
+    padding: 2vw;
+    color: white;
+    width: 16vw;
+    outline: none;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 100px), (min-width: 426px) {
+    .send {
+        width: 8vw;
+    }
+}
+
+.list-footer {
+    background-color: #252525;
+    padding: 10vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.list-footer-text1 {
+    color: var(--White);
+    font-size: 1.2vw;
+    font-weight: 700;
+    padding: 0.6vw 0;
+    font-family: "Philosopher", sans-serif;
+}
+
+.list-footer-text2 {
+    font-size: 1vw;
+    color: var(--White2);
+    font-weight: 400;
+    padding: 0.4vw 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.list-footer-photo {
+    display: flex;
+    gap: 0.8vw;
+}
+
+.footer-photo1 {
+    display: block;
+    width: 4vw;
+    padding: 0.6vw 0;
+}
+
+.footer-photo2 {
+    display: block;
+    width: 2vw;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
